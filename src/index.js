@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-
+import Userinfo from './userinfo'
 // Components
 // 1. function components
 // 2. class components
@@ -43,6 +43,7 @@ ReactDOM.render(
     <h1>Hello from React</h1>
     <input type="checkbox" />
     <App title="Good Morning" />
+    <Userinfo firstname="bala" lastname="krishnan"/>
   </div>,
   document.getElementById('root'),
 );
