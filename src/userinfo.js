@@ -9,7 +9,7 @@ const Userinfo = ({ firstname, lastname }) => (
 
 Userinfo.propTypes = {
   firstname: PropTypes.string.isRequired,
-  lastname: PropTypes.string,isRequired,
+  lastname: PropTypes.string.isRequired,
 };
 
 export default Userinfo;
