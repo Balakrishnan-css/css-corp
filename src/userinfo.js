@@ -7,7 +7,7 @@ const Userinfo = ({ firstname, lastname }) => (
   </>
 );
 
-App.propTypes = {
+Userinfo.propTypes = {
   firstname: PropTypes.string.isRequired,
   lastname: PropTypes.string,isRequired,
 };
